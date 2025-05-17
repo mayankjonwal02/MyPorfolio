@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white overflow-hidden">
       <ParticlesBackground />
-      <div className="container mx-auto px-4 py-8 relative z-10">
+      <div className=" mx-auto px-4 py-8 relative z-10">
         <Hero />
         <About />
         <Experience />

@@ -64,7 +64,7 @@ export default function Skills() {
   ]
 
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="container mx-auto py-20">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
